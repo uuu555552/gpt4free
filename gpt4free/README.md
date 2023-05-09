@@ -1,21 +1,17 @@
-# gpt4free package
+# gpt4 package
 
-### What is it?
-
-gpt4free is a python package that provides some language model api's
-
-### Main Features
-
-- It's free to use
-- Easy access
-
-### Installation:
+### 这是什么?
+Gpt4free是一个python包，它提供了一些语言模型api
+### 主要特性
+-免费使用
+-方便使用
+### 安装:
 
 ```bash
 pip install gpt4free
 ```
 
-#### Usage:
+#### 使用:
 
 ```python
 import gpt4free
@@ -83,7 +79,7 @@ from gpt4free import quora
 token = quora.Account.create(logging=False)
 ```
 
-### Token generation of ForeFront
+### 令牌生成
 ```python
 from gpt4free import forefront
 
@@ -92,24 +88,19 @@ token = forefront.Account.create(logging=False)
 
 ## Copyright:
 
-This program is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt)
+本程序根据获得许可 [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt)
 
-### Copyright Notice: <a name="copyright"></a>
+### 版权声明: <a name="copyright"></a>
 
 ```
-xtekky/gpt4free: multiple reverse engineered language-model api's to decentralise the ai industry.  
-Copyright (C) 2023 xtekky
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+本程序是自由软件:您可以重新发布和/或修改它
+在GNU通用公共许可证的条款下，由
+自由软件基金会，或者是许可证的第三版，或者
+(根据你的选择)任何以后的版本。
+发布这个程序是希望它能有所帮助，
+但无任何保证;甚至没有隐含的保证
+适销性或适合于某一特定目的。看到
+详细信息请参见GNU通用公共许可证。
+您应该已经收到了GNU通用公共许可证的副本
+和这个节目一起。如果没有，请参见<https://www.gnu.org/licenses/>。
 ```
